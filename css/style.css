@@ -55,7 +55,11 @@ section.container {
 }
 .description {
     font-size: 1.5rem;
-    max-width: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+.description_small {
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
 
 /* Header Start */
@@ -159,6 +163,11 @@ section.container {
     color: var(--color-accent);
     margin-bottom: 1rem;
 }
+.major_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
 .job {
     display: flex;
     align-items: center;
@@ -166,10 +175,59 @@ section.container {
     margin-bottom: 1rem;
     text-align: left;
 }
+.job_period {
+    font-size: 0.8rem;
+}
 /* Main_About */
 
 /* Main_skills */
-
+    #skills {
+        background-color: var(--color-gray);
+        color: var(--color-white);
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1.5fr 1fr;
+        margin-top: 2rem;
+        box-shadow: 4px 8px 8px rgb(0, 0, 0, 0.38);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .skills_coding {
+        background-color: var(--color-black);
+        grid-row: span 2;
+        padding: 1rem 2rem;
+    }
+    .skills_etc {
+        background-color: rgb(24, 24, 33);
+    }
+    .skills_title {
+        color: var(--color-accent);
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .bar_title {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bar_bg {
+        width: 100%;
+        height: 3px;
+        background-color: var(--color-gray);
+        margin-bottom: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .bar_value {
+        height: 3px;
+        background-color: var(--color-accent);
+    }
+    .bar_value_html {width: 98%;}
+    .bar_value_css {width: 90%;}
+    .bar_value_javascript {width: 90%;}
+    .bar_value_typescript {width: 80%;}
+    .bar_value_react {width: 79%;}
+    .bar_value_nodejs {width: 68%;}
 /* Main_skills */
 
 /* Work start */
@@ -276,7 +334,7 @@ section.container {
 }
 /* Testinomial End */
 
-/* Arrow top */
+/* Arrow top Start */
 .arrow_up {
     position: fixed;
     bottom: 3rem;
@@ -291,7 +349,7 @@ section.container {
     padding-top: 0.1rem;
     box-shadow: 5px 5px 0 0 var(--color-accent);
 }
-/* Arrow top */
+/* Arrow top End */
 
 /* =========Main End=========== */
 
