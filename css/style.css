@@ -418,7 +418,7 @@ Media Query : ~ 1000px
         align-items: center;
     }
     .major {
-        width: 30rem;
+        width: 50rem;
         max-width: 100%;
     }
     .job {justify-content: center;}
