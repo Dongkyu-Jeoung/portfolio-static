@@ -419,6 +419,7 @@ Media Query : ~ 1000px
     }
     .major {
         width: 30rem;
+        max-width: 100%;
     }
     .job {justify-content: center;}
     .skills {grid-template-columns: 1fr;}
